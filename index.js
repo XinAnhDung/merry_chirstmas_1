@@ -5,7 +5,7 @@ const today = Date.parse(myDate);
 
 const daysToChristmas = Math.round((xmas - today) / (1000 * 60 * 60 * 24));
 
-if (daysToChristmas == 0) $("#days").text("It's Christmas!! Merry Christmas!");
+if (daysToChristmas == 0) $("#days").text("Merry Christmas Days!");
 
 if (daysToChristmas < 0)
   $("#days").text("Christmas was " + -1 * daysToChristmas + " days ago.");

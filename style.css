@@ -54,13 +54,12 @@ html {
   position: relative;
 }
 
-#day {
+#days {
   font-size: 50px;
-  color: #FFF;
+  color: white;
   text-align: center;
   letter-spacing: 3px;
 }
-
 .drop {
   position: absolute;
   top: 0; 

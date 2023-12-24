@@ -13,9 +13,11 @@ var app = new Vue({
     open: function() {
       if (this.open == true) {
           document.body.className = 'open';
+          document.querySelector("#days").style.color = 'red';
           }
       else {
         document.body.className = '';
+        document.querySelector("#days").style.color = 'white';
       }
     }
   }
